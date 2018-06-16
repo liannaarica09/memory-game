@@ -1,0 +1,23 @@
+.card {
+    height: 28vh;
+    margin: 1rem;
+    border-radius: 50%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,052664+65,052664+100 */
+    background: rgb(135, 224, 253);
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(135, 224, 253, 1) 0%, rgba(5, 38, 100, 1) 65%, rgba(5, 38, 100, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(135, 224, 253, 1) 0%, rgba(5, 38, 100, 1) 65%, rgba(5, 38, 100, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(135, 224, 253, 1) 0%, rgba(5, 38, 100, 1) 65%, rgba(5, 38, 100, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#052664', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.card:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: -4px 3px 37px 0px rgb(29, 2, 59);
+    -moz-box-shadow: -4px 3px 37px 0px rgb(29, 2, 59);
+    box-shadow: -4px 3px 37px 0px rgb(29, 2, 59);
+}

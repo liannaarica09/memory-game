@@ -1,0 +1,7 @@
+.CardContainer {
+    background: rgb(5, 38, 100);
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+}
