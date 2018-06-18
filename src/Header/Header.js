@@ -1,13 +1,17 @@
 import React from "react";
 import "./Header.css";
 
-const Header = props =>
-    <div className="header">
-        <p className="title">Memory Game</p>
-        <div className="scoreDiv">
-            <p>Score: {props.score}</p>
-            <p>Top Score: {props.topScore}</p>
+const Header = props => {
+
+    return (
+        <div className="header">
+            <p className="title">Memory Game</p>
+            <div className="scoreDiv">
+                <p>Score: {props.score}</p>
+                <p>Top Score: {props.topScore}</p>
+            </div>
         </div>
-    </div>;
+    )
+}
 
 export default Header;
